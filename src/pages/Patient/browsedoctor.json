@@ -1,0 +1,78 @@
+{
+  "doctors": {
+    "doc1": {
+      "id": "doc1",
+      "name": "Dr. Asha Mehta",
+      "specialization": "Cardiologist",
+      "location": "Surat",
+      "availability": "Mon-Fri, 10 AM - 4 PM",
+      "fee": 800,
+      "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"]
+    },
+    "doc2": {
+      "id": "doc2",
+      "name": "Dr. Rajesh Patel",
+      "specialization": "Dermatologist",
+      "location": "Ahmedabad",
+      "availability": "Tue-Sat, 11 AM - 6 PM",
+      "fee": 600,
+      "slots": ["11:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"]
+    }
+  },
+  "appointments": {
+    "appt1": {
+      "doctorId": "doctor123",
+      "doctorName": "Dr. Sharma",
+      "patientId": "patient001",
+      "patientName": "John Doe",
+      "date": "2025-09-20 10:30 AM",
+      "status": "confirmed",
+      "notes": "Follow-up on blood pressure"
+    },
+    "appt2": {
+      "doctorId": "doctor123",
+      "doctorName": "Dr. Sharma",
+      "patientId": "patient002",
+      "patientName": "Alice Smith",
+      "date": "2025-09-22 2:00 PM",
+      "status": "completed",
+      "notes": "Routine skin check-up"
+    },
+    "appt3": {
+      "doctorId": "doctor456",
+      "doctorName": "Dr. Patel",
+      "patientId": "patient001",
+      "patientName": "John Doe",
+      "date": "2025-09-23 5:00 PM",
+      "status": "cancelled",
+      "notes": "Patient cancelled due to travel"
+    },
+    "appt4": {
+      "doctorId": "doctor789",
+      "doctorName": "Dr. Mehta",
+      "patientId": "patient001",
+      "patientName": "John Doe",
+      "date": "2025-09-24 11:15 AM",
+      "status": "pending",
+      "notes": "First consultation"
+    }
+  },
+  "patients": {
+    "patient001": {
+      "name": "John Doe",
+      "medicalReports": {
+        "report1": {
+          "title": "Blood Test",
+          "description": "Routine blood checkup",
+          "date": "2025-09-20",
+          "fileURL": "https://example.com/report1.pdf"
+        },
+        "report2": {
+          "title": "Skin Test",
+          "description": "Routine skin examination",
+          "date": "2025-09-22"
+        }
+      }
+    }
+  }
+}
