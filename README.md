@@ -1,3 +1,6 @@
+project output is provided in this link
+<img width="1901" height="922" alt="image" src="https://github.com/user-attachments/assets/8823e681-251c-4ec5-9016-24073ecaed5d" />
+
 📌 Real-World Project: Smart Healthcare Appointment System (React + Firebase)
 🎯 Objective
 To create a real-time healthcare appointment booking platform using React.js + Firebase only (no Node/Express). Patients can book doctors, doctors manage schedules, and admins oversee the system.
