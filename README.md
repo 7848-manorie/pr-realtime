@@ -1,4 +1,5 @@
-<img width="1901" height="922" alt="image" src="https://github.com/user-attachments/assets/8823e681-251c-4ec5-9016-24073ecaed5d" />
+<img width="1901" height="869" alt="image" src="https://github.com/user-attachments/assets/d8eccbc8-78d3-4348-850e-52d722bbd6a8" />
+
 
 📌 Real-World Project: Smart Healthcare Appointment System (React + Firebase)
 
